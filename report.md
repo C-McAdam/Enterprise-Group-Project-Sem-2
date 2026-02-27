@@ -1,5 +1,7 @@
-Report 
+# Enterprise Semester 2 Group Project – Dataset Analysis 
+### Dataset used: [Student Screen Time vs. CGPA Analysis - 2026](https://www.kaggle.com/datasets/rishisukumar/student-screen-time-vs-cgpa-analysis-2026)
 
+<<<<<<< HEAD
 Overview
 As  the group we chose a student performance data which was recorded over one semester. The students are either male or female from ages 17 to 25 which. The data was chosen because it was relevant to the us as students. The columns consisted of students personal details and their performance including their sleeping hours. The data consisted of more than 500 rows and 12 columns. The columns have records of student identity numbers, age, gender, daily screen time, social media hours, online study hours, gaming hours, sleep hours, attendance percentage, offline study hours, current semester GPA and previous semester GPA.  The data was extracted onto an excel sheet for better analysis and cleaning. 
 Data Cleaning
@@ -29,5 +31,22 @@ To conclude, this project collected a dataset containing information about stude
 Visual analysis using graphs showed clear relationships between study time, screen time, and academic performance. Students who studied more hours generally achieved better academic results, while excessive screen time appeared to have a negative effect.
 A basic machine learning concept was introduced to demonstrate how student performance could be predicted based on study patterns. This showed how data analysis can be used to support educational decision-making.
 
+=======
+## Dataset Overview
+The data that was used in the project is data that was used to track university students perfomance for two semesters. It consists of 547 rows and 11 columns. The data set has basic students information that include the gender, age and their perfomance throughot two semseters. The data was presented in the excel form. 
+>>>>>>> dc202d43864ab384f513742c5f9bdbb07acedc1b
 
 
+<<<<<<< HEAD
+=======
+We proceeded to analysse the data using different functions to check the 
+
+
+
+## Machine Learning 
+A machine learning python file was created, based upon the one used by Keith in his tutorial video. I modified it to represent my data columns in my data set.  
+It was a struggle setting up the virtual environment, as the imports apparently were missing some dependencies. I had to reinstall the imports several times before they worked the intended way.
+
+### Data Cleaning Summary 
+Putting the data through logistic regression cleaned the data, making it a Boolean, either the student got an 8.0 CGPA or they didn’t. I created a new column from the old total_hours_studied column, but it checked if the values were above, equal to or below 8.0, and set the values to 1 if above and to 0 if below. This filtered the list to show only the passing grades, and as a result also showed a recommended number of hours to study based on who passed the filter. 
+>>>>>>> dc202d43864ab384f513742c5f9bdbb07acedc1b
