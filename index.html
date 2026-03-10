@@ -6,11 +6,55 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
-  <body class="container">
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #275394, #1d0740);">
+  <div class="container-fluid">
+    <section></section>
+
+    <a class="navbar-brand fw-bold" href="#">Student Performance Analysis</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+         
+        <li class="nav-item">
+          <a class="nav-link" href="#">Analysis</a>
+        </li>
+        <li class="nav-item">
+         
+        </li>
+        <li class="nav-item">
+         
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <body class="container-fluid">
+    <h1>Dataset Description</h1>
+<p>
+        This dataset contains information about students’ daily habits and academic performance.
+        It was used to analyse how study time and lifestyle factors influence students’ GPA.
+        The dataset includes multiple variables related to study hours, screen time, sleep,
+        and attendance.
+    </p>
+
+    <p>
+        The dataset was cleaned and prepared using Excel and Python to ensure accurate analysis.
+        Graphs and regression models were then used to identify patterns and relationships
+        between study hours and academic performance.
+    </p>
+
     <main>
       <br>
         <header class="mb-4">
-            <h1 class="display-1">GPA vs Hours Studied Graph</h1>
+            <h3 class="display-1">GPA vs Hours Studied Graph</h3>
             <p class="text-muted">X = Hours Studied, Y = Current GPA</p>
         </header>
 
@@ -26,9 +70,12 @@
             <p>A linear regression script was used originally in python, which was then implemented into this website using Charts.js</p>
             <p>A line graph was used to show all the data and show where it clusters</p>
             <br>
-            <h2>What this tells us</h2>
-            <p>We can read from this graph that the students who studied from 2-4 hours performed the worst out of the group, with 5.5 to 6.7 GPA,</p>
-            <p>whereas students who studied from 7-9 hours were the most variable in their GPA, but were the only ones to crack 9.7 GPA.</p>
+           <h2 class="mt-4 mb-3">Conclusion</h2>
+  <p>
+    This analysis demonstrates that study time is an important factor in student success. The visualisation 
+    helps identify trends and makes it easier to understand how study habits impact GPA. This type of data 
+    analysis can be useful for students, teachers, and academic institutions to improve learning outcomes.
+  </p>
         </article>
     </main>
 
@@ -65,4 +112,8 @@
 
 
   </script>
+  <footer class="text-center text-white p-3 mt-4"
+style="background: linear-gradient(90deg, #001f3f, #003366);">
+  © 2026 Student Performance Analysis | by Charles and Andile
+</footer>
 </html>
